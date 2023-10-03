@@ -1,0 +1,452 @@
+*{
+    margin: 0 auto; 
+}
+body{
+background-color: rgb(30, 30, 30);
+}
+li{
+	color: white;
+    list-style-type: none;
+}
+.menu-container{
+    background-color: rgb(50, 50, 50);
+}
+.menu-toggle{
+	display: none; 
+	flex-direction: column;
+	cursor: pointer; 
+    align-items: center;
+    background-color: rgb(60 60, 60);
+    height: 5vh;
+}
+
+.bar {
+    width: 40px;
+    height: 7px;
+    background-color: rgb(30, 30, 30);
+    margin: 5px 0px 0px 0px;
+    transition: 0.3s;
+    border-radius: 20px; 
+}
+.bar:hover{
+    pointer: cursor; 
+    text-decoration: underline;
+}
+/* Style for the open navigation links */
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 10px 0;
+}
+ .menu-toggle {
+        display: flex;
+    }
+    
+
+    .navigation {
+        color: white;
+        text-shadow: 3px 6px 10px black;
+        letter-spacing: .1rem;
+        display: none;
+        font-size: 30px; 
+        flex-direction: column;
+        text-align: center;
+        background-image: linear-gradient(0deg, rgba(30,30,30), rgba(60, 60, 60));
+        padding: 2px;
+        position: relative;/* Adjust the top position as needed */
+        right: 0;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1; 
+    }
+
+    .navigation.active {
+        display: flex;
+    }
+    
+    h4{
+        display: inline-block;
+    }
+.navigation li:hover{
+    text-decoration: underline;
+}
+/*end of navigation , start of body content */ 
+.selfie{
+    border-color: rgba(0, 120, 255);
+    border-radius: 50%;
+    border-width: 4px;
+    width: 200px;
+    height: 200px;   
+    text-align: center;
+    color: white;
+    position: relative; 
+    margin: 0 auto;
+    top: 50px;
+}
+
+.img{
+    max-width: 100%; 
+    max-height: 100%;
+    border-radius: 50%;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    opacity: 0.7;
+}
+.p1{
+    font-size: 45px;
+    font-family: "Pacifico", sans-serif;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    display: block;
+    text-align: center;
+    position: relative; 
+    top: 80px;
+    
+    
+}
+.p2{
+    font-size: 30px;
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 1px 2px black;
+    display: block;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.p3{
+    font-size: 30px;
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 1px 2px black;
+    display: block;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+hr{
+    position: relative; 
+    top: 150px;
+    width: 50%;
+}
+
+
+.seemore {
+    text-align: center;
+    margin-top: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px 0;
+    /* Adjust the margin as needed */
+}
+
+button {
+    background-color: rgb(60, 60, 60);
+    border-radius: 50%;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative; 
+    top: 220px;
+    width: 220px;
+}
+
+button:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.selfie2{
+    max-width: 100%;
+    max-height: auto;
+    
+}
+.img2{
+    margin-top: 300px;
+    border-radius: 25%;
+    overflow: hidden; 
+    width: 250px; 
+    height: 250px; 
+}
+.p4{
+     font-size: 18px;
+    text-shadow: 1px 1px 2px black;
+    display: block;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    letter-spacing: .1rem;
+    margin-bottom: 10px; 
+}
+h4{
+    font-size: 40px; 
+    position: relative; 
+    top: 80px; 
+    color: white; 
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 10px 10px black;
+    
+}
+.hr1{
+    position: relative; 
+    top: 90px; 
+    width: 70%;
+}
+
+h6{
+    font-size: 25px; 
+    position: relative; 
+    top: 120px; 
+    text-align: center;
+    color: white; 
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 10px 10px black;
+}
+.cert1{
+    max-width: 90%;
+    max-height: auto;
+    border-radius: 25%;
+    
+}
+.img3{
+    max-width: 90%;
+    max-height: 100%;
+    top: 120px;
+    position: relative;
+    object-fit: cover;
+    
+}
+.IBM{
+    font-size: 25px; 
+    position: relative; 
+    top: 150px;
+    text-align: center;
+    color: white; 
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 10px 10px black;
+}
+.cert2{
+    max-width: 90%;
+    max-height: auto;
+    border-radius: 25%;
+    
+}
+.img4{
+    max-width: 90%; 
+    max-height: 100%;
+    top: 150px; 
+    position: relative;
+    object-fit: cover;
+}
+.hr2{
+    position: relative; 
+    top: 200px;
+    width: 70%;
+}
+
+/* end of about me section 
+
+
+/* start of skills section */
+
+.skillcontent{
+    text-align: center;
+    margin-top: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px 0;
+    position: relative;
+    top: 300px;
+}
+.skills{
+    position: relative; 
+    top: 250px;
+    color: white; 
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 10px 10px black;
+    letter-spacing: .2rem;
+    border-radius: 2px;
+    border: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-width: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
+.img5{
+    max-width: 100%; 
+    max-height: 100%;
+    position: relative; 
+    object-fit: cover;
+}
+.p8{
+    font-size: 20px;
+    color: white; 
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 10px 10px black;
+    position: relative;
+    right: 85px;
+}
+.p9{
+    font-size: 20px;
+    color: white; 
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 10px 10px black;
+    position: relative;
+    left: 95px; 
+    bottom: 20px;
+}
+.TS{
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 100%;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+}
+.TS2{
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 100%;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    
+}
+.img6{
+    max-width: 100%; 
+    max-height: 100%;
+    position: relative; 
+    object-fit: cover;
+}
+.p10{
+    font-size: 20px;
+    color: white; 
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 10px 10px black;
+    position: relative;
+    top: 25px; 
+    
+}
+.TS3{
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 100%;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    position: relative; 
+    top: 30px; 
+}
+
+.img7{
+    max-width: 100%; 
+    max-height: 100%;
+    position: relative; 
+    object-fit: cover;
+}
+.TS4{
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 100%;
+    position: relative; 
+    top: 40px;
+    border: solid; 
+    padding: 10px; 
+    border-color: white;
+}
+.p11{
+    font-size: 20px;
+    color: white; 
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 10px 10px black;
+    position: relative;
+    top: 60px; 
+    right: 90px;
+}
+.p12{
+     font-size: 20px;
+    color: white; 
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 10px 10px black;
+    position: relative;
+    top: 15px; 
+    left: 90px;
+}
+
+/*start of experience section */ 
+
+.p6{
+    font-size: 40px;
+    position: relative;
+    top: 400px;
+    color: white; 
+    font-family: "Helvetica", sans-serif;
+    text-shadow: 1px 10px 10px black;
+}
+
+table{
+    background-color: rgb(30, 30, 30);
+    border-color: transparent;
+    position: relative; 
+    top: 420px;
+}
+th, td{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: "Helvetica", sans-serif;
+}
+th{
+    background-color: rgb(60, 60, 60);
+}
+
+
+/* end of experience section */ 
+
+
+/*start of contact me page */ 
+
+
+
+
+
+/*breakpoints below */ 
+
+
+@media(max-width: 375px){
+    .TS, .TS2, .TS3, .TS4 {
+        width: 120px;
+        height: 120px;
+}
+
+
+
+
+
+}
+
+
+@media(min-width: 769px){
+    h1{
+    color: rgba(22,22,12);
+    font-size: 120px;
+    text-shadow: 0px 0px 3px white;
+    text-align: center
+    }
+h2{
+    font-size: 110px;
+    color: white;
+    text-shadow: 1px 1px 3px white;
+}
+}

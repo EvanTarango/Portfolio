@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evan's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+<body>
+<header>
+    <nav>
+	<div class="menu-container">
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            
+		</div>
+        <ul class="navigation">
+            <li>Home</li>
+             <li>About Me</li>
+               <li>Experience</li>
+               <li>Projects</li>
+                <li>Contact Me</li>
+        </ul>
+    
+    </nav>
+</header>
+
+        <div class="selfie">
+        <img class="img" src="images\selfie.PNG">
+        </div>
+         <p class="p1">Hi,</p>
+         <p class="p2">My name is Evan</p><br><br>
+         <p class="p3">A Front-End Web Developer based in Gilbert, Arizona</p>
+        <hr>
+        
+    <!-- end of body , start of the about me section -->
+        
+        <div class="seemore">        
+            <button id="showMoreButton" onclick="scrollToAdditionalContent()">About Me</button>
+             <div id="additionalContent" style="display: none;">
+                <div class="img2">
+                    <img class="selfie2" src="images\selfie2.JPG">
+                </div>
+    <!-- after clicking the about me button --> 
+    
+                <p class="p4">I am 23 years old, an experienced IT professional with a strong passion for growing and learning.<br><br>With over 3 years in the IT field I have gained valuable experiences in diverse
+                IT environments that have helped me continuously improve my skills and knowledge of technology. 
+                </p>
+    <!-- start of education section --> 
+                <div class="education">
+                    <h4>Education</h4>
+                    <hr class="hr1">
+                    <h6><em>Google IT Certificate</em></h6>
+                    <div class="img3">
+                        <img class="cert1" src="images\ITCERT.PNG">
+                        </div>
+                        <h6 class="IBM"><em>Front-End with React</em></h6>
+                         <div class="img4">
+                        <img class="cert2" src="images\ITCERT2.PNG">
+                        </div>
+                        <hr class="hr2">
+    <!-- start of skills section --> 
+    
+            <h4 class="skills">Skills</h4>
+        <div class="skillcontent">
+            <p class="p8">Troubleshooting</p>
+            <p class="p9">Office365</p>
+            <div class="img5">
+                <img class="TS" src="images\TS.PNG" width="150px" height="150px">
+                <img class="TS2" src="images\office.PNG" width="150px" height="150px">
+            </div>
+            <div class="img6">
+                <p class="p10">HTML/CSS/JS</p>
+                <img class="TS3" src="images\TS3.PNG" width="150px" height="150px">
+            </div>
+            <div class="img7">
+                <p class="p11">(AD,Powershell)<br>(Windows/Mac OS)</p>
+                <p class="p12">Team<br>Collaboration</p>
+                <img class="TS4"  src="images\TS4.PNG" width="150px" height="150px">
+                <img class="TS4"  src="images\TS5.PNG" width="150px" height="150px">
+            </div>
+        </div>
+        </div>
+        
+    <!-- start of experience section --> 
+            <p class="p13">Experience</p>
+           <table border="1">
+        <tr>
+            <th>RLCanning</th>
+            <th>Charles Schwab</th>
+            <th>Wells Fargo</th>
+        </tr>
+        <tr>
+            <td>IT Technician</td>
+            <td>IT Analyst</td>
+            <td>IT Analyst</td>
+        </tr>
+        <tr>
+            <td> 1yr(Current)</td></td>
+            <td>1yr(Contract)</td>
+            <td>1yr(Contract)</td>
+        </tr>
+    </table>
+            </div>
+                </div>
+                    </div> 
+         
+        
+        
+<script src="portfolio.js"></script>
+</body>
+</html>
